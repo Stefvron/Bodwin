@@ -1,0 +1,24 @@
+<div class="containerColorColumn"><div class="colorItem" data-color="0" style="background: #FFF"></div><div class="colorItem" data-color="2" style="background: #C1C1C1"></div><div class="colorItem" data-color="4" style="background: #EF130B"></div><div class="colorItem" data-color="6" style="background: #FF7100"></div><div class="colorItem" data-color="8" style="background: #FFE400"></div><div class="colorItem" data-color="10" style="background: #00CC00"></div><div class="colorItem" data-color="12" style="background: #00B2FF"></div><div class="colorItem" data-color="14" style="background: #231FD3"></div><div class="colorItem" data-color="16" style="background: #A300BA"></div><div class="colorItem" data-color="18" style="background: #D37CAA"></div><div class="colorItem" data-color="20" style="background: #A0522D"></div></div>
+<div class="containerColorColumn"><div class="colorItem" data-color="1" style="background: #000"></div><div class="colorItem" data-color="3" style="background: #4C4C4C"></div><div class="colorItem" data-color="5" style="background: #740B07"></div><div class="colorItem" data-color="7" style="background: #C23800"></div><div class="colorItem" data-color="9" style="background: #E8A200"></div><div class="colorItem" data-color="11" style="background: #005510"></div><div class="colorItem" data-color="13" style="background: #00569E"></div><div class="colorItem" data-color="15" style="background: #0E0865"></div><div class="colorItem" data-color="17" style="background: #550069"></div><div class="colorItem" data-color="19" style="background: #A75574"></div><div class="colorItem" data-color="21" style="background: #63300D"></div></div>
+
+
+Farben 0-20 (0, 2, 4, ...) (x % 2 = 0):
+//*[@id="containerBoard"]/div[2]/div[2]/div[1]/div[1]
+...
+//*[@id="containerBoard"]/div[2]/div[2]/div[1]/div[11]
+
+Farben 1-21 (1, 3, 5, ...) (x % 2 != 0):
+//*[@id="containerBoard"]/div[2]/div[2]/div[2]/div[1]
+...
+//*[@id="containerBoard"]/div[2]/div[2]/div[2]/div[11]
+
+Farben:
+["FFFFFF", "000000", "C1C1C1", "4C4C4C", "EF130B", "740B07", "FF7100", "C23800", "FFE400", "E8A200", "00CC00", "005510", "00B2FF", "00569E", "231FD3", "0E0865", "A300BA", "550069", "D37CAA", "A75574", "A0522D", "63300D"]
+
+
+https://static.wikia.nocookie.net/batman/images/f/f1/Catwoman.jpg/revision/latest/top-crop/width/360/height/450?cb=20120713145148&path-prefix=de
+Zeitmessungen:
+0,06560523986816406
+0,06280740439891815
+0,061990926861763
+0,06928571462631225
